@@ -52,3 +52,38 @@ This project demonstrates a **Next Word Prediction** model using deep learning a
    - Load both in a Streamlit interface
 
 ---
+
+
+## 🧪 Run Locally
+
+### 🔧 Install Requirements
+
+Make sure you have Python 3.7+ installed, then run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Run the Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+> Ensure `Next_word_lstm.h5` and `tokenizer.pickle` are present in the same directory as `app.py`.
+
+---
+
+## 🎯 Example Prediction
+
+**Input:**  
+```
+ALL PERSONS MORE THAN A MILE HIGH TO LEAVE THE
+```
+
+**Predicted Next Word:**  
+```
+court
+```
+
+---
